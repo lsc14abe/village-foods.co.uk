@@ -1,0 +1,44 @@
+/* Components */
+
+/* Button Shutter Out Horizontal */
+.button {
+	width: 120px;
+	height: 2em;
+	padding: 0.5em;
+	text-align: center;
+	border-radius: 3px;
+	transform: perspective(1px) translateZ(0);
+	position: relative;
+	background: var(--logo-color);
+}
+
+.button:before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 3px;
+	background: var(--nav-color);
+	transform: scaleX(0);
+	transform-origin: 50%;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.button:hover, .button:focus, .button:active {
+	color: var(--logo-color);
+}
+
+.button:hover:before, .button:focus:before, .button:active:before {
+	transform: scaleX(1);
+}
+
+
+
+
+/* hero */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
