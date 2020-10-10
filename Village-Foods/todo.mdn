@@ -1,0 +1,14 @@
+
+??? only first button works - all need adjusting 
+including the form one.
+
+***the fixed nav (position:fixed) when scrolling off of top. 
+The nav needs to be hidden when scrolling down but reappear when
+scrolling up
+
+Hamburger menu on responsive. will include links to home and 
+about us as well as the rest. - NEEDS TO CLOSE ONCE LINK CLICKED*** ALSO WANT BODY TO SHIFT OVER WITH
+MENU MOVE
+
+*** add carosel to pictures of produce and wedding cakes ***
+

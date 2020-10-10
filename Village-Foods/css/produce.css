@@ -1,0 +1,20 @@
+/* PRODUCE */
+.produce-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	color: var(--nav-color);
+	border-radius: 5px;
+}
+.produce-content h2{
+	color: #ffffff;
+}
+
+.description{
+	margin:10px 0;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+.description p{
+	margin: 0 0 25px 0;
+}
+
